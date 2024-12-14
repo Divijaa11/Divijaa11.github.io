@@ -148,7 +148,7 @@
       },
       {
         "name": "Programming, Data Structures and Algorithms using Python",
-        "image": "images/Python_Ds.webp"
+        "image": "images/python_Ds.webp"
       },
       {
         "name": "Python for Data Science",
@@ -169,6 +169,72 @@
       {
         "name": "AWS Partner: Accreditation (Technical)",
         "image": "images/AWS_Partner_Accreditation_(Technical).webp"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "categories": [
+      {
+        "category": "Professional Projects",
+        "projects": [
+          {
+            "name": "TAAS Platform",
+            "description": "Trailer as a Service platform",
+            "contributions": [
+              "Focused on frontend development with React, utilizing a Single SPA-based microfrontend architecture, and developed interfaces compatible with both web and mobile platforms.",
+              "Integrated Google Maps and developed bar and line graphs within the application.",
+              "Contributed to the backend by completing tasks as assigned.."
+            ],
+            "technologies": ["React", "Single Spa", "Google Maps API","Nivo","Nest js"]
+          },
+          {
+            "name": "TruValidate",
+            "description": "Uniform platform for customer onboarding",
+            "contributions": [
+              "Primarily focused on frontend (FE) and backend for frontend (BFF) development.",
+              "Contributed to backend (BE) tasks in accordance with assigned responsibilities.",
+              "OContributed to the integration of FE, BE, and BFF components."
+            ],
+            "technologies": ["React", "GraphQL","Spring Boot"]
+          }
+        ]
+      },
+      {
+        "category": "Organizational Projects",
+        "projects": [
+          {
+            "name": "Real World",
+            "description": "Full-stack application inspired by Medium.com.",
+            "contributions": [
+              "Configured and managed the MySQL database for efficient data storage and retrieval, ensuring optimal performance and scalablity",
+              "Integrated OAuth2 authentication mechanism for convenient and secure user login using email accounts.",
+              "Implemented advanced filtering options, like/dislike functionality, and comments on articles to enhance the application's functionality and user experience."
+            ],
+            "technologies": ["React", "Spring Boot", "OAuth2"]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "details": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/Divijaa11"
+      },
+      {
+        "name": "LeetCode",
+        "link": "https://leetcode.com/Divija"
+      },
+      {
+        "name": "HackerRank",
+        "link": "https://www.hackerrank.com/profile/divija_amaram"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/divija-amaram-aa0140204/"
       }
     ]
   }

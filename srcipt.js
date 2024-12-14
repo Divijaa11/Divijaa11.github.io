@@ -82,5 +82,76 @@ fetch("content.json")
 
       container.appendChild(card);
     });
+
+    const projectsSection = document.getElementById("projects");
+
+    const projectsTitle = document.createElement("h3");
+    projectsTitle.textContent = data.projects.title;
+    projectsSection.appendChild(projectsTitle);
+
+    data.projects.categories.forEach(category => {
+      const categoryTitle = document.createElement("h4");
+      categoryTitle.textContent = category.category;
+      projectsSection.appendChild(categoryTitle);
+
+      const projectContainer = document.createElement("div");
+      projectContainer.classList.add("project-container");
+
+      category.projects.forEach(project => {
+        const projectCard = document.createElement("div");
+        projectCard.classList.add("project-card");
+
+        const name = document.createElement("h5");
+        name.textContent = project.name;
+        projectCard.appendChild(name);
+
+        const description = document.createElement("p");
+        description.textContent = project.description;
+        projectCard.appendChild(description);
+
+        if (project.contributions && project.contributions.length > 0) {
+          const contributionsList = document.createElement("ul");
+          project.contributions.forEach(contribution => {
+            const listItem = document.createElement("li");
+            listItem.textContent = contribution;
+            contributionsList.appendChild(listItem);
+          });
+          projectCard.appendChild(contributionsList);
+        }
+
+        const tech = document.createElement("p");
+        tech.textContent = `Technologies: ${project.technologies.join(", ")}`;
+        tech.classList.add("technologies");
+        projectCard.appendChild(tech);
+
+        if (project.link) {
+          const link = document.createElement("a");
+          link.href = project.link;
+          link.textContent = "View Project";
+          link.target = "_blank";
+          projectCard.appendChild(link);
+        }
+
+        projectContainer.appendChild(projectCard);
+      });
+
+      projectsSection.appendChild(projectContainer);
+    });
+
+     const contactSection = document.getElementById("contact");
+
+     const contactTitle = document.createElement("h3");
+     contactTitle.textContent = data.contact.title;
+     contactSection.appendChild(contactTitle);
+ 
+     data.contact.details.forEach(detail => {
+       const contactLink = document.createElement("a");
+       contactLink.href = detail.link;
+       contactLink.textContent = detail.name;
+       contactLink.target = "_blank"; 
+       contactLink.style.display = "block"; 
+       contactSection.appendChild(contactLink);
+     });
+
   })
   .catch((error) => console.error("Error loading JSON:", error));
