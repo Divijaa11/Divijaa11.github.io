@@ -1,0 +1,175 @@
+{
+  "name": "Divija",
+  "tabs": [
+    { "label": "About", "link": "#about" },
+    { "label": "Projects", "link": "#projects" },
+    { "label": "Contact", "link": "#contact" }
+  ],
+  "fullName": "Divija Amaram",
+  "role": "Full Stack Developer",
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a curious and passionate Full-Stack Software Engineer with a knack for solving complex problems and creating seamless, user-friendly experiences. My journey spans front-end and back-end development, where I have honed my skills in React, Spring Boot, and AWS, among other tools and frameworks. I am dedicated to writing clean, maintainable code by embracing best practices like Test-Driven Development, SOLID principles, and Agile methodologies.",
+      "Beyond my technical expertise, I thrive on learning and exploring new technologies, constantly seeking innovative ways to enhance application performance and user engagement. From integrating Google Maps and building responsive microfrontends to optimizing backend processes, I enjoy crafting scalable solutions that bridge technical excellence with intuitive design.",
+      "When I’m not coding, you’ll find me diving into new challenges, exploring ideas, or collaborating with peers to create impactful projects."
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": [
+      {
+        "category": "Frontend",
+        "skills": [
+          {
+            "name": "HTML & CSS",
+            "link": "https://github.com/Divija1002/Divija1002.github.io"
+          },
+          {
+            "name": "JavaScript",
+            "link": "https://github.com/Divija1002/zemoso-javascript"
+          },
+          {
+            "name": "TypeScript",
+            "link": "https://github.com/divija-zemoso/react-mui"
+          },
+          {
+            "name": "React",
+            "link": "https://github.com/Divija1002/Zemoso_Blinkist"
+          },
+          {
+            "name": "Svelte",
+            "link": "https://github.com/zemoso-int/Bootcamp_43_svelte"
+          },
+          { "name": "Redux" }
+        ]
+      },
+      {
+        "category": "Backend",
+        "skills": [
+          {
+            "name": "Java",
+            "link": "https://github.com/Divija1002/Zemoso-java-assignments"
+          },
+          {
+            "name": "Spring Boot",
+            "link": "https://github.com/Divija1002/zemoso-springboot"
+          },
+          {
+            "name": "GraphQL",
+            "link": "https://github.com/Divija1002/Zemoso_Graphql"
+          },
+          {
+            "name": "MySQL",
+            "link": "https://github.com/Divija1002/Zemoso_DBMS"
+          },
+          { "name": "PostgreSQL" },
+          {
+            "name": "Postman",
+            "link": "https://github.com/zemoso-int/bootcamp-70-minet/pull/141/files"
+          },
+          {
+            "name": "Node js",
+            "link": "https://github.com/divija-zemoso/Node_Learnings/tree/main"
+          },
+          {
+            "name": "Kafka",
+            "link": "https://github.com/divija-zemoso/kafka_learnings/pulls"
+          }
+        ]
+      },
+      {
+        "category": "QA & DevOps",
+        "skills": [
+          {
+            "name": "Cypress",
+            "link": "https://github.com/zemoso-int/bootcamp-70-minet/pull/138"
+          },
+          { "name": "Jest" },
+          { "name": "JUnit" },
+          {
+            "name": "Docker",
+            "link": "https://github.com/divija-zemoso/green-commute-cicd"
+          },
+          {
+            "name": "Kubernetes",
+            "link": "https://github.com/zemoso-int/bc-green-commute-cicd-k8s"
+          },
+          {
+            "name": "CI/CD",
+            "link": "https://github.com/zemoso-int/bc-green-commute-cicd-k8s"
+          }
+        ]
+      },
+      {
+        "category": "Additional Skills",
+        "skills": [
+          { "name": "OOPS" },
+          { "name": "Responsive Web Design" },
+          { "name": "Functional Programming" },
+          { "name": "Agile Methodologies" },
+          { "name": "Design Patterns" },
+          { "name": "Mentoring" },
+          {
+            "name": "DB Design",
+            "link": "https://miro.com/app/board/uXjVMZ-470c=/?moveToWidget=3458764550022870705&cot=14"
+          },
+          {
+            "name": "API Design",
+            "link": "https://app.swaggerhub.com/apis-docs/DIVIJAAMARAM_1/Minet/1.0.0"
+          },
+          {
+            "name": "Sonar Cloud",
+            "link": "https://sonarcloud.io/summary/overall?id=bootcamp-be-70-user-service"
+          },
+          {
+            "name": "Example Mapping",
+            "link": "https://miro.com/app/board/uXjVPoffbEM=/"
+          },
+          { "name": "Clean Code" },
+          { "name": "Webpack" },
+          { "name": "Documentation" },
+          { "name": "Logging" },
+          { "name": "Debugging & Bug Fixing" }
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "name": "Programming in Java",
+        "image": "images/Programming_in_java_certificate.webp"
+      },
+      {
+        "name": "Python for Everybody - Coursera",
+        "image": "images/Coursera_Python.webp"
+      },
+      {
+        "name": "Programming, Data Structures and Algorithms using Python",
+        "image": "images/Python_Ds.webp"
+      },
+      {
+        "name": "Python for Data Science",
+        "image": "images/Python_for_data_science_certificate.webp"
+      },
+      {
+        "name": "Introduction to Programming in C",
+        "image": "images/Introduction_to_programming_in_c_certificate.webp"
+      },
+      {
+        "name": "AWS Cloud Practitioner Essentials",
+        "image": "images/AWS_Cloud_Practitioner_Essentials.webp"
+      },
+      {
+        "name": "Amazon EC2 Basics",
+        "image": "images/Amazon_EC2_Basics.webp"
+      },
+      {
+        "name": "AWS Partner: Accreditation (Technical)",
+        "image": "images/AWS_Partner_Accreditation_(Technical).webp"
+      }
+    ]
+  }
+}

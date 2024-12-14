@@ -1,0 +1,98 @@
+.combine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    padding: 10px;
+}
+.topbar{
+    font-weight: bold;
+}
+.navbar{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    flex: 1;
+    width: 90%;
+    margin: 1em auto 0;
+}
+.details{
+    display:"flex";
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#skills a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#skills a:hover {
+    text-decoration: underline;
+}
+
+.certifications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.certification-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.certification-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+}
