@@ -90,9 +90,11 @@ fetch("content.json")
     projectsSection.appendChild(projectsTitle);
 
     data.projects.categories.forEach(category => {
+      const projectSectionContainer=document.createElement('div')
+      projectSectionContainer.className='project-section-container'
       const categoryTitle = document.createElement("h4");
       categoryTitle.textContent = category.category;
-      projectsSection.appendChild(categoryTitle);
+      projectSectionContainer.appendChild(categoryTitle);
 
       const projectContainer = document.createElement("div");
       projectContainer.classList.add("project-container");
@@ -134,8 +136,8 @@ fetch("content.json")
 
         projectContainer.appendChild(projectCard);
       });
-
-      projectsSection.appendChild(projectContainer);
+      projectSectionContainer.appendChild(projectContainer)
+      projectsSection.appendChild(projectSectionContainer);
     });
 
      const contactSection = document.getElementById("contact");
