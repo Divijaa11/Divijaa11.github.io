@@ -34,18 +34,12 @@ a:hover {
     background-color: #e7f5ff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 15px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-.topbar {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
 }
 
 .navbar {
@@ -140,6 +134,7 @@ a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
 }
 
 .project-card:hover {
