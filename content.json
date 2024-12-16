@@ -1,9 +1,8 @@
 {
-  "name": "Divija",
   "tabs": [
     { "label": "About", "link": "#about" },
     { "label": "Projects", "link": "#projects" },
-    { "label": "Contact", "link": "#contact" }
+    { "label": "Profiles", "link": "#profiles" }
   ],
   "fullName": "Divija Amaram",
   "role": "Full Stack Developer",
@@ -22,24 +21,21 @@
         "category": "Frontend",
         "skills": [
           {
-            "name": "HTML & CSS",
-            "link": "https://github.com/Divija1002/Divija1002.github.io"
+            "name": "HTML & CSS"
           },
           {
             "name": "JavaScript",
-            "link": "https://github.com/Divija1002/zemoso-javascript"
+            "link": "https://github.com/Divijaa11/zemoso-javascript"
           },
           {
-            "name": "TypeScript",
-            "link": "https://github.com/divija-zemoso/react-mui"
+            "name": "TypeScript"
           },
           {
             "name": "React",
-            "link": "https://github.com/Divija1002/Zemoso_Blinkist"
+            "link": "https://github.com/Divijaa11/react-mui"
           },
           {
-            "name": "Svelte",
-            "link": "https://github.com/zemoso-int/Bootcamp_43_svelte"
+            "name": "Svelte"
           },
           { "name": "Redux" }
         ]
@@ -48,33 +44,29 @@
         "category": "Backend",
         "skills": [
           {
-            "name": "Java",
-            "link": "https://github.com/Divija1002/Zemoso-java-assignments"
+            "name": "Java"
           },
           {
             "name": "Spring Boot",
-            "link": "https://github.com/Divija1002/zemoso-springboot"
+            "link": "https://github.com/Divijaa11/react-springboot-auth0"
           },
           {
-            "name": "GraphQL",
-            "link": "https://github.com/Divija1002/Zemoso_Graphql"
+            "name": "GraphQL"
           },
           {
-            "name": "MySQL",
-            "link": "https://github.com/Divija1002/Zemoso_DBMS"
+            "name": "MySQL"
           },
           { "name": "PostgreSQL" },
           {
-            "name": "Postman",
-            "link": "https://github.com/zemoso-int/bootcamp-70-minet/pull/141/files"
+            "name": "Postman"
           },
           {
             "name": "Node js",
-            "link": "https://github.com/divija-zemoso/Node_Learnings/tree/main"
+            "link": "https://github.com/Divijaa11/Node_Learnings"
           },
           {
             "name": "Kafka",
-            "link": "https://github.com/divija-zemoso/kafka_learnings/pulls"
+            "link": "https://github.com/Divijaa11/kafka_learnings"
           }
         ]
       },
@@ -82,22 +74,18 @@
         "category": "QA & DevOps",
         "skills": [
           {
-            "name": "Cypress",
-            "link": "https://github.com/zemoso-int/bootcamp-70-minet/pull/138"
+            "name": "Cypress"
           },
           { "name": "Jest" },
           { "name": "JUnit" },
           {
-            "name": "Docker",
-            "link": "https://github.com/divija-zemoso/green-commute-cicd"
+            "name": "Docker"
           },
           {
-            "name": "Kubernetes",
-            "link": "https://github.com/zemoso-int/bc-green-commute-cicd-k8s"
+            "name": "Kubernetes"
           },
           {
-            "name": "CI/CD",
-            "link": "https://github.com/zemoso-int/bc-green-commute-cicd-k8s"
+            "name": "CI/CD"
           }
         ]
       },
@@ -111,20 +99,16 @@
           { "name": "Design Patterns" },
           { "name": "Mentoring" },
           {
-            "name": "DB Design",
-            "link": "https://miro.com/app/board/uXjVMZ-470c=/?moveToWidget=3458764550022870705&cot=14"
+            "name": "DB Design"
           },
           {
-            "name": "API Design",
-            "link": "https://app.swaggerhub.com/apis-docs/DIVIJAAMARAM_1/Minet/1.0.0"
+            "name": "API Design"
           },
           {
-            "name": "Sonar Cloud",
-            "link": "https://sonarcloud.io/summary/overall?id=bootcamp-be-70-user-service"
+            "name": "Sonar Cloud"
           },
           {
-            "name": "Example Mapping",
-            "link": "https://miro.com/app/board/uXjVPoffbEM=/"
+            "name": "Example Mapping"
           },
           { "name": "Clean Code" },
           { "name": "Webpack" },
@@ -184,9 +168,15 @@
             "contributions": [
               "Focused on frontend development with React, utilizing a Single SPA-based microfrontend architecture, and developed interfaces compatible with both web and mobile platforms.",
               "Integrated Google Maps and developed bar and line graphs within the application.",
-              "Contributed to the backend by completing tasks as assigned.."
+              "Contributed to the backend by completing tasks as assigned."
             ],
-            "technologies": ["React", "Single Spa", "Google Maps API","Nivo","Nest js"]
+            "technologies": [
+              "React",
+              "Single Spa",
+              "Google Maps API",
+              "Nivo",
+              "Nest js"
+            ]
           },
           {
             "name": "TruValidate",
@@ -194,9 +184,9 @@
             "contributions": [
               "Primarily focused on frontend (FE) and backend for frontend (BFF) development.",
               "Contributed to backend (BE) tasks in accordance with assigned responsibilities.",
-              "OContributed to the integration of FE, BE, and BFF components."
+              "Contributed to the integration of FE, BE, and BFF components."
             ],
-            "technologies": ["React", "GraphQL","Spring Boot"]
+            "technologies": ["React", "GraphQL", "Spring Boot"]
           }
         ]
       },
@@ -212,13 +202,108 @@
               "Implemented advanced filtering options, like/dislike functionality, and comments on articles to enhance the application's functionality and user experience."
             ],
             "technologies": ["React", "Spring Boot", "OAuth2"]
+          },
+          {
+            "name": "Minet",
+            "description": "Cryptocurrency trading platform",
+            "contributions": [
+              "Developed reusable UI components using Atomic Design, conducted comprehensive testing, and deployed Storybook with Chromatic.",
+              "Designed user microservices with Spring Boot and optimized database design for efficient data management.",
+              "Ensured reliability through thorough testing of controllers, services, and UI components."
+            ],
+            "technologies": [
+              "React",
+              "Storybook",
+              "Jest",
+              "Spring Boot",
+              "Junit"
+            ]
+          },
+          {
+            "name": "Contiq",
+            "description": "A platform for uploading, viewing, and searching pitch decks via local or cloud-based files.",
+            "contributions": [
+              "Built UI pages, integrated backend microservices, and resolved UI bugs for better usability.",
+              "Developed user microservice for sign-up, login, and password reset with thorough testing.",
+              "Worked across teams to troubleshoot backend issues during deployment."
+            ],
+            "technologies": [
+              "React",
+              "Storybook",
+              "Jest",
+              "Spring Boot",
+              "Junit"
+            ]
+          },
+          {
+            "name": "Green Commute",
+            "description": "Job search and eco-friendly commute platform",
+            "contributions": [
+              "Developed the primary frontend using React and explored an alternative Svelte version as a proof-of-concept.",
+              "Designed and integrated secure RESTful APIs with a scalable backend architecture using Spring Boot.",
+              "Ensured robust functionality through Jest testing for frontend components and implemented reusable UI documentation with Storybook."
+            ],
+            "technologies": [
+              "React",
+              "Svelte",
+              "Spring Boot",
+              "MySQL",
+              "Storybook",
+              "Cypress",
+              "Jest",
+              "Junit"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Open Source Contributions",
+        "projects": [
+          {
+            "name": "Bree Collection",
+            "description": "A modern e-commerce platform built with React and TypeScript, featuring product browsing and cart management.",
+            "contributions": [
+              "Added price and size filtering for a refined product search experience.",
+              "Developed shopping cart and order placement functionalities with a seamless checkout process."
+            ],
+            "technologies": ["React", "Typescript"]
+          },
+          {
+            "name": "Budget Tracker",
+            "description": "A web-based tool to monitor expenses, manage budgets, and achieve financial goals through visual charts and data insights.",
+            "contributions": [
+              "Developed a Currency Converter using APIs for real-time expense conversion.",
+              "Created feature documentation to enhance user experience and guide future development.",
+              "Ensured application stability by identifying and fixing bugs."
+            ],
+            "technologies": ["React"]
+          },
+          {
+            "name": "Global Clinic",
+            "description": "A single-page application that simplifies user registration through an intuitive and efficient interface.",
+            "contributions": [
+              "Added new data fields to enhance the user registration process.",
+              "Integrated Auth0 for secure and seamless user login.",
+              "Enabled Google Authentication to simplify access using Google accounts."
+            ],
+            "technologies": ["React", "OAuth2", "Auth0"]
+          },
+          {
+            "name": "Hospital Run",
+            "description": "A healthcare management app for organizing appointments, diagnoses, and health data, with features for scheduling and reminders.",
+            "contributions": [
+              "Developed advanced filtering to streamline appointment management by type.",
+              "Implemented full CRUD functionality (GET, POST, PUT, DELETE) for appointments.",
+              "Created comprehensive documentation with insights for future improvements."
+            ],
+            "technologies": ["React", "Typescript"]
           }
         ]
       }
     ]
   },
   "contact": {
-    "title": "Contact Me",
+    "title": "Profiles",
     "details": [
       {
         "name": "GitHub",

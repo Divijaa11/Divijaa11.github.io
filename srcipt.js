@@ -1,8 +1,6 @@
 fetch("content.json")
   .then((response) => response.json())
   .then((data) => {
-    const topbar = document.querySelector(".topbar");
-    topbar.textContent = data.name;
     const navbar = document.querySelector(".navbar");
     data.tabs.forEach((tab) => {
       const tabElement = document.createElement("a");
@@ -64,10 +62,9 @@ fetch("content.json")
 
     const container = document.createElement("div");
     container.classList.add("certifications-container");
-    certificationsSection.appendChild(container)
+    certificationsSection.appendChild(container);
 
     data.certifications.items.forEach((cert) => {
-      console.log("cert",cert)
       const card = document.createElement("div");
       card.classList.add("certification-card");
 
@@ -89,9 +86,9 @@ fetch("content.json")
     projectsTitle.textContent = data.projects.title;
     projectsSection.appendChild(projectsTitle);
 
-    data.projects.categories.forEach(category => {
-      const projectSectionContainer=document.createElement('div')
-      projectSectionContainer.className='project-section-container'
+    data.projects.categories.forEach((category) => {
+      const projectSectionContainer = document.createElement("div");
+      projectSectionContainer.className = "project-section-container";
       const categoryTitle = document.createElement("h4");
       categoryTitle.textContent = category.category;
       projectSectionContainer.appendChild(categoryTitle);
@@ -99,7 +96,7 @@ fetch("content.json")
       const projectContainer = document.createElement("div");
       projectContainer.classList.add("project-container");
 
-      category.projects.forEach(project => {
+      category.projects.forEach((project) => {
         const projectCard = document.createElement("div");
         projectCard.classList.add("project-card");
 
@@ -113,7 +110,7 @@ fetch("content.json")
 
         if (project.contributions && project.contributions.length > 0) {
           const contributionsList = document.createElement("ul");
-          project.contributions.forEach(contribution => {
+          project.contributions.forEach((contribution) => {
             const listItem = document.createElement("li");
             listItem.textContent = contribution;
             contributionsList.appendChild(listItem);
@@ -122,7 +119,9 @@ fetch("content.json")
         }
 
         const tech = document.createElement("p");
-        tech.textContent = `Technologies: ${project.technologies.join(", ")}`;
+        if (project.technologies) {
+          tech.textContent = `Technologies: ${project.technologies.join(", ")}`;
+        }
         tech.classList.add("technologies");
         projectCard.appendChild(tech);
 
@@ -136,24 +135,23 @@ fetch("content.json")
 
         projectContainer.appendChild(projectCard);
       });
-      projectSectionContainer.appendChild(projectContainer)
+      projectSectionContainer.appendChild(projectContainer);
       projectsSection.appendChild(projectSectionContainer);
     });
 
-     const contactSection = document.getElementById("contact");
+    const contactSection = document.getElementById("profiles");
 
-     const contactTitle = document.createElement("h3");
-     contactTitle.textContent = data.contact.title;
-     contactSection.appendChild(contactTitle);
- 
-     data.contact.details.forEach(detail => {
-       const contactLink = document.createElement("a");
-       contactLink.href = detail.link;
-       contactLink.textContent = detail.name;
-       contactLink.target = "_blank"; 
-       contactLink.style.display = "block"; 
-       contactSection.appendChild(contactLink);
-     });
+    const contactTitle = document.createElement("h3");
+    contactTitle.textContent = data.contact.title;
+    contactSection.appendChild(contactTitle);
 
+    data.contact.details.forEach((detail) => {
+      const contactLink = document.createElement("a");
+      contactLink.href = detail.link;
+      contactLink.textContent = detail.name;
+      contactLink.target = "_blank";
+      contactLink.style.display = "block";
+      contactSection.appendChild(contactLink);
+    });
   })
   .catch((error) => console.error("Error loading JSON:", error));
