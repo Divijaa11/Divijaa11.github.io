@@ -56,7 +56,7 @@ fetch("content.json")
     });
     const certificationsSection = document.getElementById("certifications");
 
-    const title = document.createElement("h4");
+    const title = document.createElement("h3");
     title.textContent = data.certifications.title;
     certificationsSection.appendChild(title);
 
@@ -144,14 +144,16 @@ fetch("content.json")
     const contactTitle = document.createElement("h3");
     contactTitle.textContent = data.contact.title;
     contactSection.appendChild(contactTitle);
-
+    const contactContainer=document.createElement("div");
+    contactContainer.classList.add('contact-container');
+    contactSection.appendChild(contactContainer)
     data.contact.details.forEach((detail) => {
       const contactLink = document.createElement("a");
       contactLink.href = detail.link;
       contactLink.textContent = detail.name;
       contactLink.target = "_blank";
       contactLink.style.display = "block";
-      contactSection.appendChild(contactLink);
+      contactContainer.appendChild(contactLink);
     });
   })
   .catch((error) => console.error("Error loading JSON:", error));

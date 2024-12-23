@@ -3,17 +3,43 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    color: #333;
 }
 
 body {
     background-color: #f5f5f5;
-    color: #333;
     line-height: 1.6;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4,h5 {
     margin-bottom: 15px;
 }
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
 
 a {
     text-decoration: none;
@@ -35,7 +61,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 15px 20px;
+    padding: 20px 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -128,6 +154,10 @@ a:hover {
     margin-bottom: 2em;
 }
 
+.projects-section h3, .projects-section h4 {
+    font-size: 1.8rem;
+}
+
 .project-card {
     background-color: #ffffff;
     border-radius: 8px;
@@ -213,6 +243,10 @@ a:hover {
     color: #555;
 }
 
+.project-card, .certification-card {
+    padding: 20px;
+}
+
 .contact-section {
     background-color: #e7f5ff;
     padding: 20px;
@@ -228,25 +262,7 @@ a:hover {
     color: #007bff;
 }
 
-.contact-container {
+.contact-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.contact-container a {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-}
-
-.contact-container a:hover {
-    background-color: #d0ebff;
-    color: #007bff;
-    transform: translateY(-3px);
+    justify-content: space-between;
 }
