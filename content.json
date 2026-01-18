@@ -1,107 +1,166 @@
 {
   "tabs": [
-    { "label": "About", "link": "#about" },
-    { "label": "Skills", "link": "#skills" },
-    { "label": "Projects", "link": "#projects" },
-    { "label": "Certifications", "link": "#certifications" },
-    { "label": "Profiles", "link": "#profiles" }
+    {
+      "label": "About",
+      "link": "#about"
+    },
+    {
+      "label": "Skills",
+      "link": "#skills"
+    },
+    {
+      "label": "Projects",
+      "link": "#projects"
+    },
+    {
+      "label": "Certifications",
+      "link": "#certifications"
+    },
+    {
+      "label": "Contact",
+      "link": "#contacts"
+    }
   ],
   "fullName": "Divija Amaram",
   "role": "Full Stack Developer",
   "about": {
     "title": "About",
     "paragraphs": [
-      "I am a curious and passionate Full-Stack Software Engineer with a knack for solving complex problems and creating seamless, user-friendly experiences. My journey spans front-end and back-end development, where I have honed my skills in React, Spring Boot, and AWS, among other tools and frameworks. I am dedicated to writing clean, maintainable code by embracing best practices like Test-Driven Development, SOLID principles, and Agile methodologies.",
-      "Beyond my technical expertise, I thrive on learning and exploring new technologies, constantly seeking innovative ways to enhance application performance and user engagement. From integrating Google Maps and building responsive microfrontends to optimizing backend processes, I enjoy crafting scalable solutions that bridge technical excellence with intuitive design.",
-      "When I’m not coding, you’ll find me diving into new challenges, exploring ideas, or collaborating with peers to create impactful projects."
-    ]
+      "Full Stack Developer building efficient, user-friendly applications with clean code and modern technologies. Always curious, always learning."
+    ],
+    "resume": "./resume/Divija_Resume_43.pdf"
   },
   "skills": {
     "title": "Skills",
     "categories": [
       {
-        "category": "Frontend",
+        "category": "Languages",
         "skills": [
-          { "name": "HTML & CSS" },
+          {
+            "name": "Java"
+          },
           {
             "name": "JavaScript",
             "link": "https://github.com/Divijaa11/zemoso-javascript"
           },
-          { "name": "TypeScript" },
-          { "name": "React", "link": "https://github.com/Divijaa11/react-mui" },
-          { "name": "Svelte" },
-          { "name": "Redux" },
           {
-            "name": "Single SPA",
-            "link": "https://github.com/Divijaa11/mfs-single-spa-poc"
+            "name": "TypeScript"
+          },
+          {
+            "name": "Python"
+          },
+          {
+            "name": "SQL"
+          },
+          {
+            "name": "HTML & CSS"
+          }
+        ]
+      },
+      {
+        "category": "Frontend",
+        "skills": [
+          {
+            "name": "React",
+            "link": "https://github.com/Divijaa11/react-mui"
           },
           {
             "name": "Microfrontends",
             "link": "https://github.com/Divijaa11/mfs-single-spa-poc"
           },
-          { "name": "Responsive Web Design" },
-          { "name": "Webpack" }
+          {
+            "name": "Single SPA",
+            "link": "https://github.com/Divijaa11/mfs-single-spa-poc"
+          },
+          {
+            "name": "Webpack"
+          },
+          {
+            "name": "Responsive Web Design"
+          }
         ]
       },
       {
-        "category": "Backend",
+        "category": "Backend & Cloud",
         "skills": [
-          { "name": "Java" },
           {
             "name": "Spring Boot",
             "link": "https://github.com/Divijaa11/react-springboot-auth0"
           },
-          { "name": "GraphQL" },
           {
             "name": "Node.js",
             "link": "https://github.com/Divijaa11/Node_Learnings"
           },
           {
-            "name": "Kafka",
-            "link": "https://github.com/Divijaa11/kafka_learnings"
+            "name": "GraphQL"
           },
-          { "name": "SQL" },
-          { "name": "MySQL" },
-          { "name": "PostgreSQL" },
-          { "name": "API Design" },
-          { "name": "Database Design" },
-          { "name": "Postman" }
+          {
+            "name": "API Design"
+          },
+          {
+            "name": "AWS (EC2, S3, SageMaker)"
+          },
+          {
+            "name": "PostgreSQL"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "Database Design"
+          }
         ]
       },
       {
-        "category": "QA & DevOps",
+        "category": "Core Competencies",
         "skills": [
-          { "name": "Cypress" },
-          { "name": "Jest" },
-          { "name": "JUnit" },
-          { "name": "Docker" },
-          { "name": "CI/CD" },
-          { "name": "Git" },
-          { "name": "SVN" },
-          { "name": "GitHub Actions" },
-          { "name": "SonarCloud" }
-        ]
-      },
-      {
-        "category": "Core Skills",
-        "skills": [
-          { "name": "OOP" },
-          { "name": "Algorithms" },
-          { "name": "Data Structures" },
-          { "name": "Functional Programming" },
-          { "name": "Design Patterns" },
-          { "name": "Clean Code" },
-          { "name": "Example Mapping" },
-          { "name": "Debugging & Bug Fixing" },
-          { "name": "Logging" }
+          {
+            "name": "OOP"
+          },
+          {
+            "name": "Algorithms"
+          },
+          {
+            "name": "Data Structures"
+          },
+          {
+            "name": "Design Patterns"
+          }
         ]
       },
       {
         "category": "Additional Skills",
         "skills": [
-          { "name": "Mentoring" },
-          { "name": "Agile Methodologies" },
-          { "name": "Documentation" }
+          {
+            "name": "Docker"
+          },
+          {
+            "name": "CI/CD"
+          },
+          {
+            "name": "Git"
+          },
+          {
+            "name": "GitHub Actions"
+          },
+          {
+            "name": "Jest"
+          },
+          {
+            "name": "Cypress"
+          },
+          {
+            "name": "JUnit"
+          },
+          {
+            "name": "SonarCloud"
+          },
+          {
+            "name": "Clean Code"
+          },
+          {
+            "name": "Agile Methodologies"
+          }
         ]
       }
     ]
@@ -173,7 +232,11 @@
               "Contributed to backend (BE) tasks in accordance with assigned responsibilities.",
               "Contributed to the integration of FE, BE, and BFF components."
             ],
-            "technologies": ["React", "GraphQL", "Spring Boot"]
+            "technologies": [
+              "React",
+              "GraphQL",
+              "Spring Boot"
+            ]
           }
         ]
       },
@@ -188,7 +251,11 @@
               "Integrated OAuth2 authentication mechanism for convenient and secure user login using email accounts.",
               "Implemented advanced filtering options, like/dislike functionality, and comments on articles to enhance the application's functionality and user experience."
             ],
-            "technologies": ["React", "Spring Boot", "OAuth2"]
+            "technologies": [
+              "React",
+              "Spring Boot",
+              "OAuth2"
+            ]
           },
           {
             "name": "Minet",
@@ -253,7 +320,10 @@
               "Added price and size filtering for a refined product search experience.",
               "Developed shopping cart and order placement functionalities with a seamless checkout process."
             ],
-            "technologies": ["React", "Typescript"]
+            "technologies": [
+              "React",
+              "Typescript"
+            ]
           },
           {
             "name": "Budget Tracker",
@@ -263,7 +333,9 @@
               "Created feature documentation to enhance user experience and guide future development.",
               "Ensured application stability by identifying and fixing bugs."
             ],
-            "technologies": ["React"]
+            "technologies": [
+              "React"
+            ]
           },
           {
             "name": "Global Clinic",
@@ -273,7 +345,11 @@
               "Integrated Auth0 for secure and seamless user login.",
               "Enabled Google Authentication to simplify access using Google accounts."
             ],
-            "technologies": ["React", "OAuth2", "Auth0"]
+            "technologies": [
+              "React",
+              "OAuth2",
+              "Auth0"
+            ]
           },
           {
             "name": "Hospital Run",
@@ -283,7 +359,10 @@
               "Implemented full CRUD functionality (GET, POST, PUT, DELETE) for appointments.",
               "Created comprehensive documentation with insights for future improvements."
             ],
-            "technologies": ["React", "Typescript"]
+            "technologies": [
+              "React",
+              "Typescript"
+            ]
           }
         ]
       },
@@ -298,7 +377,12 @@
               "Trained a logistic regression model and deployed it to SageMaker Hosting Services.",
               "Developed a web application to collect user input and interact with the real-time model endpoint for predictions."
             ],
-            "technologies": ["AWS (IAM, S3, SageMaker Enpoint, Sage maker Data Wrangler,Elastic Bean Stalk)","React", "Typescript","Flask"]
+            "technologies": [
+              "AWS (IAM, S3, SageMaker Enpoint, Sage maker Data Wrangler,Elastic Bean Stalk)",
+              "React",
+              "Typescript",
+              "Flask"
+            ]
           }
         ]
       }
@@ -307,6 +391,10 @@
   "contact": {
     "title": "Profiles",
     "details": [
+      {
+        "name": "divija.amaram@gmail.com",
+        "link": "mailto:divija.amaram@gmail.com"
+      },
       {
         "name": "GitHub",
         "link": "https://github.com/Divijaa11"
