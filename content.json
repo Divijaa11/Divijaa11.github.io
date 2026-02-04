@@ -325,7 +325,7 @@
           },
           {
             "name": "Model Deployment on AWS SageMaker",
-            "domain": "AI & Machine Learning",
+            "domain": "AWS & Machine Learning",
             "description": "Configured AWS S3 for data storage and trained logistic regression model on SageMaker.",
             "contributions": [
               "Configured AWS S3 for data storage and trained logistic regression model on SageMaker.",
