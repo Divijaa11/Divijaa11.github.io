@@ -9,8 +9,16 @@
       "link": "#skills"
     },
     {
+      "label": "Experience",
+      "link": "#experience"
+    },
+    {
       "label": "Projects",
       "link": "#projects"
+    },
+    {
+      "label": "Education",
+      "link": "#education"
     },
     {
       "label": "Certifications",
@@ -26,9 +34,82 @@
   "about": {
     "title": "About",
     "paragraphs": [
-      "Full Stack Developer building efficient, user-friendly applications with clean code and modern technologies. Always curious, always learning."
+      "Full Stack Developer building efficient, user-friendly applications with clean code and modern technologies."
     ],
     "resume": "./resume/Divija_Resume_43.pdf"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "company": "Hitachi Energy",
+        "role": "Software Developer Intern",
+        "duration": "May 2025 – Present",
+        "description": [
+          "Built reusable, configurable React components using TypeScript.",
+          "Developed backend APIs using Java, Python, and Quarkus.",
+          "Integrated Keycloak for authentication and role-based access control."
+        ]
+      },
+      {
+        "company": "University of Houston",
+        "role": "Research Assistant",
+        "duration": "Jan 2025 – May 2025",
+        "description": [
+          "Built RAG pipelines using LangChain, LangGraph, and AutoGen with OpenAI APIs.",
+          "Developed multi-agent LLM systems with tool-enabled agents.",
+          "Implemented vector search with ChromaDB using OpenAI and Hugging Face embeddings."
+        ]
+      },
+      {
+        "company": "Zemoso Technologies",
+        "duration": "March 2022 – Aug 2024",
+        "isGroup": true,
+        "roles": [
+          {
+            "role": "Software Engineer 1",
+            "description": [
+              "Built scalable front-end features using React, TypeScript, and Single SPA.",
+              "Integrated Google Maps APIs and graphs for real-time data visualization.",
+              "Improved code quality through reviews and ensured seamless back-end integration."
+            ]
+          },
+          {
+            "role": "Associate Software Engineer",
+            "description": [
+              "Developed frontend features with React and backend APIs using Spring Boot and GraphQL.",
+              "Optimized webpack configurations, reducing load times and improving performance.",
+              "Contributed to open-source projects and mentored bootcamp participants."
+            ]
+          },
+          {
+            "role": "Dev Intern",
+            "description": [
+              "Developed login pages and microservices for bootcamp projects using React and Spring Boot.",
+              "Refactored UI components to improve performance and user experience.",
+              "Gained hands-on experience in full-stack development and agile methodologies."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "institution": "University of Houston",
+        "degree": "Master of Science in Computer Science",
+        "duration": "Expected May 2026",
+        "gpa": "3.7/4"
+      },
+      {
+        "institution": "Sreenidhi Institute of Science and Technology",
+        "degree": "Bachelor of Technology in Electronics and Computer Engineering",
+        "duration": "June 2022",
+        "gpa": "9/10"
+      }
+    ]
   },
   "skills": {
     "title": "Skills",
@@ -37,23 +118,29 @@
         "category": "Languages",
         "skills": [
           {
-            "name": "Java"
+            "name": "Java",
+            "icon": "fa-brands fa-java"
           },
           {
             "name": "JavaScript",
-            "link": "https://github.com/Divijaa11/zemoso-javascript"
+            "link": "https://github.com/Divijaa11/zemoso-javascript",
+            "icon": "fa-brands fa-js"
           },
           {
-            "name": "TypeScript"
+            "name": "TypeScript",
+            "icon": "fa-solid fa-code"
           },
           {
-            "name": "Python"
+            "name": "Python",
+            "icon": "fa-brands fa-python"
           },
           {
-            "name": "SQL"
+            "name": "SQL",
+            "icon": "fa-solid fa-database"
           },
           {
-            "name": "HTML & CSS"
+            "name": "HTML & CSS",
+            "icon": "fa-brands fa-html5"
           }
         ]
       },
@@ -62,7 +149,11 @@
         "skills": [
           {
             "name": "React",
-            "link": "https://github.com/Divijaa11/react-mui"
+            "link": "https://github.com/Divijaa11/react-mui",
+            "icon": "fa-brands fa-react"
+          },
+          {
+            "name": "Redux"
           },
           {
             "name": "Microfrontends",
@@ -73,10 +164,16 @@
             "link": "https://github.com/Divijaa11/mfs-single-spa-poc"
           },
           {
-            "name": "Webpack"
+            "name": "Material UI"
+          },
+          {
+            "name": "Jest"
           },
           {
             "name": "Responsive Web Design"
+          },
+          {
+            "name": "Webpack"
           }
         ]
       },
@@ -85,29 +182,40 @@
         "skills": [
           {
             "name": "Spring Boot",
-            "link": "https://github.com/Divijaa11/react-springboot-auth0"
+            "link": "https://github.com/Divijaa11/react-springboot-auth0",
+            "icon": "fa-solid fa-leaf"
+          },
+          {
+            "name": "Quarkus"
+          },
+          {
+            "name": "GraphQL",
+            "icon": "fa-solid fa-project-diagram"
+          },
+          {
+            "name": "REST APIs"
+          },
+          {
+            "name": "Microservices Architecture"
+          },
+          {
+            "name": "AWS (Sagemaker, S3)",
+            "icon": "fa-brands fa-aws"
+          },
+          {
+            "name": "Docker",
+            "icon": "fa-brands fa-docker"
           },
           {
             "name": "Node.js",
-            "link": "https://github.com/Divijaa11/Node_Learnings"
-          },
-          {
-            "name": "GraphQL"
-          },
-          {
-            "name": "API Design"
-          },
-          {
-            "name": "AWS (EC2, S3, SageMaker)"
+            "link": "https://github.com/Divijaa11/Node_Learnings",
+            "icon": "fa-brands fa-node"
           },
           {
             "name": "PostgreSQL"
           },
           {
             "name": "MySQL"
-          },
-          {
-            "name": "Database Design"
           }
         ]
       },
@@ -115,13 +223,13 @@
         "category": "Core Competencies",
         "skills": [
           {
+            "name": "Data Structures & Algorithms"
+          },
+          {
             "name": "OOP"
           },
           {
-            "name": "Algorithms"
-          },
-          {
-            "name": "Data Structures"
+            "name": "Functional Programming"
           },
           {
             "name": "Design Patterns"
@@ -132,19 +240,18 @@
         "category": "Additional Skills",
         "skills": [
           {
-            "name": "Docker"
+            "name": "Git",
+            "icon": "fa-brands fa-git-alt"
           },
           {
-            "name": "CI/CD"
+            "name": "GitHub Actions (CI/CD)",
+            "icon": "fa-brands fa-github"
           },
           {
-            "name": "Git"
+            "name": "Postman"
           },
           {
-            "name": "GitHub Actions"
-          },
-          {
-            "name": "Jest"
+            "name": "Storybook"
           },
           {
             "name": "Cypress"
@@ -169,15 +276,19 @@
     "title": "Certifications",
     "items": [
       {
+        "name": "AWS Certified Developer - Associate (DVA-C02)",
+        "image": "images/AWS Certified Developer - Associate certificate.pdf"
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner (CLF-C02)",
+        "image": "images/AWS Certified Cloud Practitioner certificate.pdf"
+      },
+      {
         "name": "Programming in Java",
         "image": "images/Programming_in_java_certificate.webp"
       },
       {
-        "name": "Python for Everybody - Coursera",
-        "image": "images/Coursera_Python.webp"
-      },
-      {
-        "name": "Programming, Data Structures and Algorithms using Python",
+        "name": "Data Structures and Algorithms using Python",
         "image": "images/python_Ds.webp"
       },
       {
@@ -185,20 +296,8 @@
         "image": "images/Python_for_data_science_certificate.webp"
       },
       {
-        "name": "Introduction to Programming in C",
-        "image": "images/Introduction_to_programming_in_c_certificate.webp"
-      },
-      {
-        "name": "AWS Cloud Practitioner Essentials",
-        "image": "images/AWS_Cloud_Practitioner_Essentials.webp"
-      },
-      {
-        "name": "Amazon EC2 Basics",
-        "image": "images/Amazon_EC2_Basics.webp"
-      },
-      {
-        "name": "AWS Partner: Accreditation (Technical)",
-        "image": "images/AWS_Partner_Accreditation_(Technical).webp"
+        "name": "Python for Everybody",
+        "image": "images/Coursera_Python.webp"
       }
     ]
   },
@@ -206,182 +305,97 @@
     "title": "Projects",
     "categories": [
       {
-        "category": "Professional Projects",
+        "category": "",
         "projects": [
           {
-            "name": "TAAS Platform",
-            "description": "Trailer as a Service platform",
+            "name": "Retrieval-Augmented Generation (RAG) System",
+            "domain": "AI & Machine Learning",
+            "description": "Developed an AI-powered document retrieval system using ChromaDB and vector embeddings.",
             "contributions": [
-              "Focused on frontend development with React, utilizing a Single SPA-based microfrontend architecture, and developed interfaces compatible with both web and mobile platforms.",
-              "Integrated Google Maps and developed bar and line graphs within the application.",
-              "Contributed to the backend by completing tasks as assigned."
+              "Developed an AI-powered document retrieval system using ChromaDB and vector embeddings.",
+              "Implemented query pipelines with LangChain and LangGraph for contextual processing.",
+              "Designed a modular framework to support multi-document AI-driven responses."
             ],
             "technologies": [
-              "React",
-              "Single Spa",
-              "Google Maps API",
-              "Nivo",
-              "Nest js"
+              "ChromaDB",
+              "LangChain",
+              "LangGraph",
+              "Vector Embeddings"
             ]
           },
           {
-            "name": "TruValidate",
-            "description": "Uniform platform for customer onboarding",
+            "name": "Model Deployment on AWS SageMaker",
+            "domain": "AI & Machine Learning",
+            "description": "Configured AWS S3 for data storage and trained logistic regression model on SageMaker.",
             "contributions": [
-              "Primarily focused on frontend (FE) and backend for frontend (BFF) development.",
-              "Contributed to backend (BE) tasks in accordance with assigned responsibilities.",
-              "Contributed to the integration of FE, BE, and BFF components."
+              "Configured AWS S3 for data storage and trained logistic regression model on SageMaker.",
+              "Built React web application for model interaction with real-time API endpoints."
             ],
             "technologies": [
+              "AWS SageMaker",
+              "AWS S3",
               "React",
-              "GraphQL",
-              "Spring Boot"
+              "Logistic Regression"
             ]
-          }
-        ]
-      },
-      {
-        "category": "Organizational Projects",
-        "projects": [
+          },
           {
             "name": "Real World",
+            "domain": "Full Stack",
             "description": "Full-stack application inspired by Medium.com.",
             "contributions": [
-              "Configured and managed the MySQL database for efficient data storage and retrieval, ensuring optimal performance and scalablity",
-              "Integrated OAuth2 authentication mechanism for convenient and secure user login using email accounts.",
-              "Implemented advanced filtering options, like/dislike functionality, and comments on articles to enhance the application's functionality and user experience."
+              "Designed and managed MySQL database, integrated OAuth2 authentication for secure user access.",
+              "Implemented filtering, like/dislike functionality, and commenting for user engagement."
             ],
             "technologies": [
               "React",
               "Spring Boot",
-              "OAuth2"
+              "OAuth2",
+              "MySQL"
             ]
           },
           {
             "name": "Minet",
-            "description": "Cryptocurrency trading platform",
+            "domain": "Full Stack",
+            "description": "Cryptocurrency trading platform.",
             "contributions": [
-              "Developed reusable UI components using Atomic Design, conducted comprehensive testing, and deployed Storybook with Chromatic.",
-              "Designed user microservices with Spring Boot and optimized database design for efficient data management.",
-              "Ensured reliability through thorough testing of controllers, services, and UI components."
+              "Developed reusable UI components using Atomic Design, conducted comprehensive testing via Storybook.",
+              "Designed user microservices with Spring Boot and optimized database design."
             ],
             "technologies": [
               "React",
               "Storybook",
               "Jest",
-              "Spring Boot",
-              "Junit"
+              "Spring Boot"
             ]
           },
           {
             "name": "Contiq",
-            "description": "A platform for uploading, viewing, and searching pitch decks via local or cloud-based files.",
+            "domain": "Full Stack",
+            "description": "A platform for uploading, viewing, and searching pitch decks.",
             "contributions": [
               "Built UI pages, integrated backend microservices, and resolved UI bugs for better usability.",
-              "Developed user microservice for sign-up, login, and password reset with thorough testing.",
-              "Worked across teams to troubleshoot backend issues during deployment."
+              "Developed user microservice for sign-up, login, and password reset."
             ],
             "technologies": [
               "React",
               "Storybook",
               "Jest",
-              "Spring Boot",
-              "Junit"
+              "Spring Boot"
             ]
           },
           {
             "name": "Green Commute",
-            "description": "Job search and eco-friendly commute platform",
+            "domain": "Full Stack",
+            "description": "Job search and eco-friendly commute platform.",
             "contributions": [
-              "Developed the primary frontend using React and explored an alternative Svelte version as a proof-of-concept.",
-              "Designed and integrated secure RESTful APIs with a scalable backend architecture using Spring Boot.",
-              "Ensured robust functionality through Jest testing for frontend components and implemented reusable UI documentation with Storybook."
+              "Developed the primary frontend using React and explored an alternative Svelte version.",
+              "Designed and integrated secure RESTful APIs with a scalable backend architecture."
             ],
             "technologies": [
               "React",
               "Svelte",
               "Spring Boot",
-              "MySQL",
-              "Storybook",
-              "Cypress",
-              "Jest",
-              "Junit"
-            ]
-          }
-        ]
-      },
-      {
-        "category": "Open Source Contributions",
-        "projects": [
-          {
-            "name": "Bree Collection",
-            "description": "A modern e-commerce platform built with React and TypeScript, featuring product browsing and cart management.",
-            "contributions": [
-              "Added price and size filtering for a refined product search experience.",
-              "Developed shopping cart and order placement functionalities with a seamless checkout process."
-            ],
-            "technologies": [
-              "React",
-              "Typescript"
-            ]
-          },
-          {
-            "name": "Budget Tracker",
-            "description": "A web-based tool to monitor expenses, manage budgets, and achieve financial goals through visual charts and data insights.",
-            "contributions": [
-              "Developed a Currency Converter using APIs for real-time expense conversion.",
-              "Created feature documentation to enhance user experience and guide future development.",
-              "Ensured application stability by identifying and fixing bugs."
-            ],
-            "technologies": [
-              "React"
-            ]
-          },
-          {
-            "name": "Global Clinic",
-            "description": "A single-page application that simplifies user registration through an intuitive and efficient interface.",
-            "contributions": [
-              "Added new data fields to enhance the user registration process.",
-              "Integrated Auth0 for secure and seamless user login.",
-              "Enabled Google Authentication to simplify access using Google accounts."
-            ],
-            "technologies": [
-              "React",
-              "OAuth2",
-              "Auth0"
-            ]
-          },
-          {
-            "name": "Hospital Run",
-            "description": "A healthcare management app for organizing appointments, diagnoses, and health data, with features for scheduling and reminders.",
-            "contributions": [
-              "Developed advanced filtering to streamline appointment management by type.",
-              "Implemented full CRUD functionality (GET, POST, PUT, DELETE) for appointments.",
-              "Created comprehensive documentation with insights for future improvements."
-            ],
-            "technologies": [
-              "React",
-              "Typescript"
-            ]
-          }
-        ]
-      },
-      {
-        "category": "Academic Projects",
-        "projects": [
-          {
-            "name": "Heart Disease Prediction Web Application Using AWS SageMaker",
-            "description": "Web app that predicts heart disease using a model deployed on AWS SageMaker.",
-            "contributions": [
-              "Set up AWS SageMaker environment, S3 bucket for data storage, and handled data preprocessing using SageMaker Data Wrangler.",
-              "Trained a logistic regression model and deployed it to SageMaker Hosting Services.",
-              "Developed a web application to collect user input and interact with the real-time model endpoint for predictions."
-            ],
-            "technologies": [
-              "AWS (IAM, S3, SageMaker Enpoint, Sage maker Data Wrangler,Elastic Bean Stalk)",
-              "React",
-              "Typescript",
-              "Flask"
+              "MySQL"
             ]
           }
         ]
@@ -402,10 +416,6 @@
       {
         "name": "LeetCode",
         "link": "https://leetcode.com/Divija"
-      },
-      {
-        "name": "HackerRank",
-        "link": "https://www.hackerrank.com/profile/divija_amaram"
       },
       {
         "name": "LinkedIn",

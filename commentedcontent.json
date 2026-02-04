@@ -1,0 +1,126 @@
+[
+    {
+        "category": "Open Source",
+        "projects": [
+            {
+                "name": "Bree Collection",
+                "description": "Modern e-commerce platform built with React and TypeScript.",
+                "contributions": [
+                    "Added price and size filtering for a refined product search experience.",
+                    "Developed shopping cart and order placement functionalities."
+                ],
+                "technologies": [
+                    "React",
+                    "TypeScript"
+                ]
+            },
+            {
+                "name": "Budget Tracker",
+                "description": "Web-based tool to monitor expenses and manage budgets.",
+                "contributions": [
+                    "Developed a Currency Converter using APIs for real-time expense conversion.",
+                    "Created feature documentation to enhance user experience."
+                ],
+                "technologies": [
+                    "React"
+                ]
+            },
+            {
+                "name": "Global Clinic",
+                "description": "Single-page application simplifying user registration.",
+                "contributions": [
+                    "Integrated Auth0 for secure and seamless user login.",
+                    "Enabled Google Authentication to simplify access using Google accounts."
+                ],
+                "technologies": [
+                    "React",
+                    "Auth0"
+                ]
+            },
+            {
+                "name": "Hospital Run",
+                "description": "Healthcare management app for organizing appointments.",
+                "contributions": [
+                    "Developed advanced filtering to streamline appointment management by type.",
+                    "Implemented full CRUD functionality for appointments."
+                ],
+                "technologies": [
+                    "React",
+                    "TypeScript"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Professional Projects",
+        "projects": [
+            {
+                "name": "TAAS Platform",
+                "description": "Trailer as a Service platform built with microfrontends.",
+                "contributions": [
+                    "Focused on frontend development with React, utilizing a Single SPA-based microfrontend architecture.",
+                    "Integrated Google Maps and developed bar and line graphs within the application.",
+                    "Contributed to the backend by completing tasks as assigned."
+                ],
+                "technologies": [
+                    "React",
+                    "Single Spa",
+                    "Google Maps API",
+                    "NestJS",
+                    "TypeScript"
+                ]
+            },
+            {
+                "name": "TruValidate",
+                "description": "Uniform platform for customer onboarding.",
+                "contributions": [
+                    "Primarily focused on frontend (FE) and backend for frontend (BFF) development.",
+                    "Contributed to the integration of FE, BE, and BFF components."
+                ],
+                "technologies": [
+                    "React",
+                    "GraphQL",
+                    "Spring Boot"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Professional Projects",
+        "projects": [
+            {
+                "name": "TAAS Platform",
+                "description": "Trailer as a Service platform built with microfrontends.",
+                "contributions": [
+                    "Focused on frontend development with React, utilizing a Single SPA-based microfrontend architecture.",
+                    "Integrated Google Maps and developed bar and line graphs within the application.",
+                    "Contributed to the backend by completing tasks as assigned."
+                ],
+                "technologies": [
+                    "React",
+                    "Single Spa",
+                    "Google Maps API",
+                    "NestJS",
+                    "TypeScript"
+                ]
+            },
+            {
+                "name": "TruValidate",
+                "description": "Uniform platform for customer onboarding.",
+                "contributions": [
+                    "Primarily focused on frontend (FE) and backend for frontend (BFF) development.",
+                    "Contributed to the integration of FE, BE, and BFF components."
+                ],
+                "technologies": [
+                    "React",
+                    "GraphQL",
+                    "Spring Boot"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HackerRank",
+        "link": "https://www.hackerrank.com/profile/divija_amaram"
+    }
+]

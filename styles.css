@@ -1,4 +1,34 @@
 :root {
+    /* Color Palette - Light Theme (Default) */
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --accent-primary: #0284c7;
+    /* Sky Blue Darker */
+    --accent-secondary: #6366f1;
+    /* Indigo */
+    --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --glass-border: 1px solid rgba(0, 0, 0, 0.05);
+
+    --accent-gradient: linear-gradient(135deg, #0284c7 0%, #6366f1 100%);
+
+    /* Glass Surfaces for Borders/Backgrounds */
+    --glass-surface-1: rgba(0, 0, 0, 0.05);
+    --glass-surface-2: rgba(0, 0, 0, 0.1);
+    --glass-surface-hover: rgba(0, 0, 0, 0.08);
+
+    /* Spacing & Layout */
+    --container-width: 1200px;
+    --header-height: 80px;
+    --border-radius: 16px;
+
+    /* Effects */
+    --hover-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark-theme {
     /* Color Palette - Premium Dark Theme */
     --bg-primary: #0a0e17;
     --bg-secondary: #111625;
@@ -9,42 +39,15 @@
     /* Sky Blue */
     --accent-secondary: #818cf8;
     /* Indigo */
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --glass-border: 1px solid var(--glass-surface-hover);
+
     --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
 
-    /* Color Palette - Light Theme */
-    --bg-primary-light: #f8fafc;
-    --bg-secondary-light: #ffffff;
-    --bg-glass-light: rgba(255, 255, 255, 0.85);
-    --text-primary-light: #1e293b;
-    --text-secondary-light: #64748b;
-    --accent-primary-light: #0284c7;
-    /* Sky Blue Darker */
-    --accent-secondary-light: #6366f1;
-    /* Indigo */
-    --glass-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --glass-border-light: 1px solid rgba(0, 0, 0, 0.05);
-
-    /* Spacing & Layout */
-    --container-width: 1200px;
-    --header-height: 80px;
-    --border-radius: 16px;
-
-    /* Effects */
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.08);
-    --hover-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.light-theme {
-    --bg-primary: var(--bg-primary-light);
-    --bg-secondary: var(--bg-secondary-light);
-    --bg-glass: var(--bg-glass-light);
-    --text-primary: var(--text-primary-light);
-    --text-secondary: var(--text-secondary-light);
-    --accent-primary: var(--accent-primary-light);
-    --accent-secondary: var(--accent-secondary-light);
-    --glass-shadow: var(--glass-shadow-light);
-    --glass-border: var(--glass-border-light);
+    /* Glass Surfaces for Borders/Backgrounds */
+    --glass-surface-1: rgba(255, 255, 255, 0.05);
+    --glass-surface-2: rgba(255, 255, 255, 0.1);
+    --glass-surface-hover: rgba(255, 255, 255, 0.08);
 }
 
 
@@ -188,19 +191,19 @@ h5 {
 }
 
 .theme-btn .sun-icon {
-    display: none;
+    display: block;
 }
 
 .theme-btn .moon-icon {
-    display: block;
-}
-
-.light-theme .theme-btn .sun-icon {
-    display: block;
-}
-
-.light-theme .theme-btn .moon-icon {
     display: none;
+}
+
+.dark-theme .theme-btn .sun-icon {
+    display: none;
+}
+
+.dark-theme .theme-btn .moon-icon {
+    display: block;
 }
 
 /* Hero Section */
@@ -283,7 +286,7 @@ h5 {
     border-radius: 50px;
     font-size: 0.9rem;
     color: var(--text-secondary);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-surface-1);
     transition: var(--hover-transition);
 }
 
@@ -305,6 +308,7 @@ h5 {
 
 .project-section-container h4 {
     font-size: 1.5rem;
+    font-weight: 500;
     margin-bottom: 24px;
     color: var(--text-primary);
 }
@@ -335,6 +339,7 @@ h5 {
 
 .project-card h5 {
     font-size: 1.4rem;
+    font-weight: 500;
     margin-bottom: 12px;
     color: var(--text-primary);
 }
@@ -364,7 +369,7 @@ h5 {
     font-family: 'SF Mono', 'Fira Code', monospace;
     margin-top: auto;
     padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--glass-surface-1);
 }
 
 .project-card a {
@@ -373,7 +378,7 @@ h5 {
     justify-content: center;
     margin-top: 20px;
     padding: 12px 24px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--glass-surface-1);
     border-radius: 8px;
     font-weight: 500;
     font-size: 0.9rem;
@@ -478,6 +483,20 @@ h5 {
     transition: all 0.3s ease;
 }
 
+/* Project Card Domain Eyebrow */
+.project-eyebrow {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 0.35rem;
+    /* Space between eyebrow and title */
+    display: block;
+    opacity: 0.9;
+}
+
+/* Responsive Grid Adjustments */
 @media (max-width: 768px) {
     .header {
         padding: 0 20px;
@@ -576,6 +595,69 @@ h5 {
     box-shadow: 0 8px 25px rgba(56, 189, 248, 0.5);
 }
 
+/* Skill Icons Coloring */
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-react {
+    color: #61dafb;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-java {
+    color: #5382a1;
+}
+
+.fa-python {
+    color: #3776ab;
+}
+
+.fa-aws {
+    color: #FF9900;
+}
+
+.fa-docker {
+    color: #2496ed;
+}
+
+.fa-node {
+    color: #339933;
+}
+
+.fa-git-alt {
+    color: #f05032;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-database {
+    color: #00758f;
+}
+
+/* SQL/DB generic */
+.fa-leaf {
+    color: #6db33f;
+}
+
+/* Spring Boot generic */
+
+/* Dark mode adjustments */
+body.dark-theme .fa-github {
+    color: #fff;
+}
+
+body.dark-theme .fa-java {
+    color: #f89820;
+}
+
+/* Lighter for dark mode visibility */
+
 /* Scroll Animations */
 .fade-in-section {
     opacity: 0;
@@ -585,14 +667,188 @@ h5 {
 }
 
 
-/* Tech Badges */
+/* Experience Section */
+.experience-container {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid var(--glass-surface-2);
+    margin: 20px 0;
+}
+
+.experience-card {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.experience-card::before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background: var(--accent-gradient);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+.experience-header {
+    margin-bottom: 12px;
+}
+
+.experience-card h4 {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.company-name {
+    color: var(--accent-primary);
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.experience-duration {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    background: var(--glass-surface-1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-card li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.experience-card li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-primary);
+}
+
+
+/* Grouped Experience Styles */
+.experience-group .experience-header {
+    border-bottom: 1px solid var(--glass-surface-1);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.company-name-title {
+    color: var(--text-primary);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.group-roles-container {
+    padding-left: 8px;
+}
+
+.role-entry {
+    position: relative;
+    padding-left: 24px;
+    border-left: 1px solid var(--glass-surface-2);
+    /* Sub-timeline */
+    margin-bottom: 24px;
+}
+
+.role-entry:last-child {
+    border-left: 1px solid transparent;
+    /* Hide line for last item */
+}
+
+.role-entry::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    background: var(--bg-dark);
+    border: 2px solid var(--accent-secondary);
+    border-radius: 50%;
+}
+
+.role-title {
+    color: var(--accent-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.role-duration {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+
+/* Education Section */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.education-card {
+    background: var(--bg-glass);
+    border: var(--glass-border);
+    border-radius: var(--border-radius);
+    padding: 24px;
+    transition: var(--hover-transition);
+}
+
+.education-card:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--glass-surface-2);
+    transform: translateY(-5px);
+}
+
+.education-card h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.edu-degree {
+    color: var(--accent-secondary);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.edu-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--glass-surface-1);
+    padding-top: 12px;
+}
+
 .tech-container {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: auto;
     padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--glass-surface-1);
 }
 
 .tech-badge {
@@ -649,8 +905,8 @@ h5 {
     color: var(--text-primary);
     font-size: 1rem;
     padding: 12px 24px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--glass-surface-1);
+    border: 1px solid var(--glass-surface-2);
     border-radius: 8px;
     transition: var(--hover-transition);
 }
@@ -678,8 +934,8 @@ h5 {
 .contact-form textarea {
     width: 100%;
     padding: 12px 16px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--glass-surface-1);
+    border: 1px solid var(--glass-surface-2);
     border-radius: 8px;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
@@ -691,7 +947,7 @@ h5 {
 .contact-form textarea:focus {
     outline: none;
     border-color: var(--accent-primary);
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--glass-surface-hover);
 }
 
 .submit-btn {
