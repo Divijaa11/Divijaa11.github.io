@@ -207,11 +207,6 @@
             "icon": "fa-brands fa-docker"
           },
           {
-            "name": "Node.js",
-            "link": "https://github.com/Divijaa11/Node_Learnings",
-            "icon": "fa-brands fa-node"
-          },
-          {
             "name": "PostgreSQL"
           },
           {
@@ -252,9 +247,6 @@
           },
           {
             "name": "Storybook"
-          },
-          {
-            "name": "Cypress"
           },
           {
             "name": "JUnit"
