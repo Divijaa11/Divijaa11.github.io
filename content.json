@@ -43,12 +43,26 @@
     "items": [
       {
         "company": "Hitachi Energy",
-        "role": "Software Developer Intern",
+
         "duration": "May 2025 – Present",
-        "description": [
-          "Built reusable, configurable React components using TypeScript.",
-          "Developed backend APIs using Java, Python, and Quarkus.",
-          "Integrated Keycloak for authentication and role-based access control."
+        "isGroup": true,
+        "roles": [
+          {
+            "role": "Software Developer  (Contract via Equiliem)",
+            "description": [
+              "Develop and maintain full-stack features using React (TypeScript) with Java and Python backend services.",
+              "Build and enhance backend APIs and application workflows supporting energy settlement operations.",
+              "Write unit tests, troubleshoot application issues, and contribute to reliable production-ready software."
+            ]
+          },
+          {
+            "role": "Software Developer Intern",
+            "description": [
+              "Built reusable, configurable React components using TypeScript.",
+              "Developed backend APIs using Java, Python, and Quarkus.",
+              "Integrated Keycloak for authentication and role-based access control."
+            ]
+          }
         ]
       },
       {
@@ -338,12 +352,7 @@
               "Designed and managed MySQL database, integrated OAuth2 authentication for secure user access.",
               "Implemented filtering, like/dislike functionality, and commenting for user engagement."
             ],
-            "technologies": [
-              "React",
-              "Spring Boot",
-              "OAuth2",
-              "MySQL"
-            ]
+            "technologies": ["React", "Spring Boot", "OAuth2", "MySQL"]
           },
           {
             "name": "Minet",
@@ -353,12 +362,7 @@
               "Developed reusable UI components using Atomic Design, conducted comprehensive testing via Storybook.",
               "Designed user microservices with Spring Boot and optimized database design."
             ],
-            "technologies": [
-              "React",
-              "Storybook",
-              "Jest",
-              "Spring Boot"
-            ]
+            "technologies": ["React", "Storybook", "Jest", "Spring Boot"]
           },
           {
             "name": "Contiq",
@@ -368,12 +372,7 @@
               "Built UI pages, integrated backend microservices, and resolved UI bugs for better usability.",
               "Developed user microservice for sign-up, login, and password reset."
             ],
-            "technologies": [
-              "React",
-              "Storybook",
-              "Jest",
-              "Spring Boot"
-            ]
+            "technologies": ["React", "Storybook", "Jest", "Spring Boot"]
           },
           {
             "name": "Green Commute",
@@ -383,12 +382,7 @@
               "Developed the primary frontend using React and explored an alternative Svelte version.",
               "Designed and integrated secure RESTful APIs with a scalable backend architecture."
             ],
-            "technologies": [
-              "React",
-              "Svelte",
-              "Spring Boot",
-              "MySQL"
-            ]
+            "technologies": ["React", "Svelte", "Spring Boot", "MySQL"]
           }
         ]
       }
